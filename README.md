@@ -53,7 +53,8 @@ amber "trail" highlighting the computed route live on the map — styled like
 real trailhead/wayfinding signage rather than a generic form UI. Route
 directions print into a cream "ticket" panel along the bottom.
 
-<img width="1180" height="760" alt="gui_screenshot" src="https://github.com/user-attachments/assets/5be8c92a-af68-4e41-8808-adad597aa73d" />
+<img width="1180" height="760" alt="gui_screenshot" src="https://github.com/user-attachments/assets/be05a408-4c6f-4e57-ae57-71e639c66103" />
+
 
 
 ## Requirements
