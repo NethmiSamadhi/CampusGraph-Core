@@ -88,18 +88,4 @@ nodes, blocked-path rerouting, congestion multiplier boundaries, multi-stop
 ordering correctness, unreachable-stop handling, and accessibility fallback
 messaging.
 
-## Project Structure
 
-CampusNavFinderJava/
-├── src/
-│ ├── graph/ # Node, Edge, Graph (core data structure)
-│ ├── algorithms/ # Dijkstra + 3 novel feature classes
-│ ├── core/ # RoutePlanner, RouteFormatter, RouteResult, sample data
-│ ├── ui/ # ConsoleUI
-│ ├── ui/gui/ # Desktop GUI (Theme, GraphLayout, CampusMapPanel, MainWindow, RoundedButton)
-│ ├── Main.java # Console entry point
-│ └── MainGui.java # GUI entry point
-├── test/
-│ ├── testutil/ # Dependency-free test runner
-│ └── tests/ # Unit tests for every module
-└── README.md
