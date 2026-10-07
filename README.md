@@ -104,5 +104,10 @@ Launch the desktop application:
 ```powershell
 java -cp out MainGui
 ```
+### Check Java installation
+
+Run `java -version` and `javac -version` in PowerShell.
+Both should report version 17 or newer.
+If either command is not recognised, install a JDK and add its bin folder to your Windows PATH.
 
 
