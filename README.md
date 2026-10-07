@@ -89,4 +89,20 @@ nodes, blocked-path rerouting, congestion multiplier boundaries, multi-stop
 ordering correctness, unreachable-stop handling, and accessibility fallback
 messaging.
 
+## Run on Windows using PowerShell
+
+Install JDK 17 or newer, then open PowerShell in the project folder.
+
+Compile:
+```powershell
+New-Item -ItemType Directory -Force out | Out-Null
+$javaFiles = (Get-ChildItem -Path src -Recurse -Filter *.java).FullName
+javac -d out $javaFiles
+```
+
+Launch the desktop application:
+```powershell
+java -cp out MainGui
+```
+
 
